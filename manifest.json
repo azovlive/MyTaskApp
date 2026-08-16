@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "나만의 커스텀 태스크",
+  "version": "1.0",
+  "description": "MS To-Do 스타일로 만든 구글 태스크",
+  "action": {
+    "default_popup": "index.html",
+    "default_title": "내 할 일 보기"
+  },
+  "permissions": [
+    "identity"
+  ],
+  "oauth2": {
+    "client_id": "YOUR_CLIENT_ID_HERE",
+    "scopes": [
+      "https://www.googleapis.com/auth/tasks"
+    ]
+  }
+}
